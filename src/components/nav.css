@@ -1,0 +1,19 @@
+.n{
+    background-color: #000000;
+    color: white;
+}
+.logo{
+    width: 48px;
+    height: 41.14px;
+    padding-right: 0;
+}
+.navContent{
+    display: flex;
+    padding: 12px;
+}
+.logo_text{
+    font-size: 24px;
+    margin-left: 40px;
+    font-family: Inter;
+    font-style: Regular;
+}

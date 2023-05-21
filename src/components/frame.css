@@ -1,0 +1,83 @@
+.frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px 0px;
+
+    background: #1D1D1D;
+    border-radius: 4px;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 100%;
+    background: #2F2F2F;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 180px;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    /* identical to box height, or 225% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.number {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    /* identical to box height, or 134% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.8);
+
+}
+
+.point {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 8px;
+    /* identical to box height, or 100% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+.player{
+    padding-right: 30px;
+}
+.profile{
+    padding-left: 30px;
+    
+}
